@@ -469,6 +469,69 @@ footer .line-footer p {
     color: #fff;
 }
 
+/* Estilos para a seção e contêiner */
+.formulario {
+    padding: 40px 0; /* Ajuste conforme necessário */
+    text-align: center; /* Centraliza conteúdo */
+}
+
+.interface {
+    max-width: 1200px; /* Ajuste para corresponder ao design */
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 0 20px; /* Margem interna para responsividade */
+}
+
+.titulo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.titulo span {
+    color: #88bff5; /* Cor para destacar o "COMIGO" */
+}
+
+/* Estilos para o conteúdo do formulário */
+.form-content {
+    max-width: 600px; /* Limita a largura do texto e botão */
+    margin: 0 auto; /* Centraliza */
+}
+
+.form-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.form-content p span {
+    display: block; /* Substitui o <br/> para quebra de linha */
+    margin-top: 5px;
+}
+
+/* Estilos para o botão */
+.btn-enviar {
+    margin-top: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+    display: flex; /* Usa flexbox para centralizar o botão */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.btn-enviar .btn {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    background-color: #88bff5;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none; /* Remove sublinhado do <a> */
+    text-transform: uppercase; /* Converte o texto para maiúsculas */
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+.btn-enviar .btn:hover {
+    box-shadow: 0px 0px 8px #a9d4ff;
+    transform: scale(1.05);
+}
 
 /*Responsivo*/
 
