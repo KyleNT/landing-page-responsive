@@ -64,14 +64,14 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header nav.menu-desktop a:hover {
-    color: #fff;
+    color: #88bff5;
     transform: scale(1.05);
 }
 
