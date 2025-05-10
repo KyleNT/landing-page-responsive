@@ -506,6 +506,21 @@ footer .line-footer p {
     margin-top: 5px;
 }
 
+.form-content p {
+    padding: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-content p span {
+    color: #88bff5;
+    display: block;
+}
+
 /* Estilos para o botão */
 .btn-enviar {
     margin-top: 20px;
